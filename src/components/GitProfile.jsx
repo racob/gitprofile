@@ -8,8 +8,8 @@ import Details from './details';
 import Skill from './skill';
 import Experience from './experience';
 import Certification from './certification';
-import Education from './education';
-import Project from './project';
+// import Education from './education';
+// import Project from './project';
 import Blog from './blog';
 import Footer from './footer';
 import {
@@ -39,7 +39,7 @@ const GitProfile = ({ config }) => {
   const [theme, setTheme] = useState(null);
   const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState(null);
-  const [repo, setRepo] = useState(null);
+  // const [repo, setRepo] = useState(null);
 
   useEffect(() => {
     if (sanitizedConfig) {
@@ -60,47 +60,15 @@ const GitProfile = ({ config }) => {
         let data = response.data;
 
         let profileData = {
-          avatar: data.avatar_url,
+          avatar: sanitizedConfig.profile.pictureURL,
           name: data.name ? data.name : '',
-          bio: data.bio ? data.bio : '',
-          location: data.location ? data.location : '',
+          bio: sanitizedConfig.profile.bio,
+          location: sanitizedConfig.profile.location,
           company: data.company ? data.company : '',
         };
 
         setProfile(profileData);
         return data;
-      })
-      .then((userData) => {
-        let excludeRepo = ``;
-        if (userData.public_repos === 0) {
-          setRepo([]);
-          return;
-        }
-
-        sanitizedConfig.github.exclude.projects.forEach((project) => {
-          excludeRepo += `+-repo:${sanitizedConfig.github.username}/${project}`;
-        });
-
-        let query = `user:${
-          sanitizedConfig.github.username
-        }+fork:${!sanitizedConfig.github.exclude.forks}${excludeRepo}`;
-
-        let url = `https://api.github.com/search/repositories?q=${query}&sort=${sanitizedConfig.github.sortBy}&per_page=${sanitizedConfig.github.limit}&type=Repositories`;
-
-        axios
-          .get(url, {
-            headers: {
-              'Content-Type': 'application/vnd.github.v3+json',
-            },
-          })
-          .then((response) => {
-            let data = response.data;
-
-            setRepo(data.items);
-          })
-          .catch((error) => {
-            handleError(error);
-          });
       })
       .catch((error) => {
         handleError(error);
@@ -185,10 +153,6 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         experiences={sanitizedConfig.experiences}
                       />
-                      <Education
-                        loading={loading}
-                        education={sanitizedConfig.education}
-                      />
                       <Certification
                         loading={loading}
                         certifications={sanitizedConfig.certifications}
@@ -197,17 +161,21 @@ const GitProfile = ({ config }) => {
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
-                      <Project
+                      {/* <Project
                         repo={repo}
                         loading={loading}
                         github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
-                      />
+                      /> */}
                       <ExternalProject
                         loading={loading}
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
+                      {/* <Education
+                        loading={loading}
+                        education={sanitizedConfig.education}
+                      /> */}
                       <Blog
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}

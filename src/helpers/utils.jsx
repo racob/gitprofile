@@ -135,6 +135,11 @@ export const sanitizeConfig = (config) => {
   ];
 
   return {
+    profile: {
+      bio: config?.profile?.bio,
+      location: config?.profile?.location,
+      pictureURL: config?.profile?.pictureURL,
+    },
     github: {
       username: config?.github?.username || '',
       sortBy: config?.github?.sortBy || 'stars',
