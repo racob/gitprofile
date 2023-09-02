@@ -86,8 +86,8 @@ const config = {
     {
       company: 'Apple Developer Academy Indonesia',
       position: 'Junior iOS Developer',
-      from: 'February 2020',
-      to: 'March 2019',
+      from: 'March 2019',
+      to: 'February 2020',
       companyLink: 'https://dgas.co.id/',
     },
   ],
