@@ -36,16 +36,19 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1pOtIlbuqvCdHeRe9G5XaD-cB-HdgVHxo/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/drive/folders/1Zxz15kbRtpN2BogQ-zgJjWkmHrpfYtiA?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Swift',
     'UIkit',
     'SwiftUI',
     'Combine',
+    'RxSwift',
     'Moya',
+    'UI/Unit Testing',
     'CI/CD',
     'Flutter',
+    'Riverpod',
     'Firebase',
     'Google Maps API',
     'JavaScript',
@@ -152,6 +155,14 @@ const config = {
         'Body tracking app to help archers gain feedback on their posture in order to increase their performance and accuracy.',
       imageUrl: 'https://i.postimg.cc/x86v1h19/archy.png',
       link: 'https://www.behance.net/gallery/90954233/Archy',
+    },
+    {
+      title: 'Qiroah (iOS)',
+      description:
+        "Learning-by-doing-based iOS application for improving the pronunciation of reading the Qur'an, provided with video materials from nationally certified Qur'an instructors.",
+      imageUrl:
+        'https://play-lh.googleusercontent.com/4_93I5YCop5_9bBuurp7cFKM45ysYifgIR0LIFG6-9dXnjnyruu4yTheCY3oK1PG9Wu4=w480-h960-rw',
+      link: 'https://www.qiroah.com/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
