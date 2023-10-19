@@ -147,7 +147,7 @@ const config = {
       description:
         'An iOS app that helps beginners practice simple calisthenic movements based on pose estimation. Developed for bachelor thesis.',
       imageUrl: 'https://i.postimg.cc/hPgC2Rd3/Icon.png',
-      link: 'https://drive.google.com/file/d/1mOpEm5871k5edRC5FovezJJlyOfLVNz3/view?usp=drive_link',
+      link: 'https://github.com/racob/calistrainer',
     },
     {
       title: 'Archy (iOS)',
