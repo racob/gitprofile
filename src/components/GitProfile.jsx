@@ -153,10 +153,6 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         experiences={sanitizedConfig.experiences}
                       />
-                      <Certification
-                        loading={loading}
-                        certifications={sanitizedConfig.certifications}
-                      />
                     </div>
                   </div>
                   <div className="lg:col-span-2 col-span-1">
@@ -171,6 +167,10 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
+                      />
+                      <Certification
+                        loading={loading}
+                        certifications={sanitizedConfig.certifications}
                       />
                       {/* <Education
                         loading={loading}

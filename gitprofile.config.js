@@ -94,14 +94,14 @@ const config = {
       companyLink: 'https://dgas.co.id/',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Secure Coding Overview - Cyber Academy Indonesia',
+      body: 'Developers learn various attack techniques on applications, and how attacks can occur, and provide insight for developers about what things must be considered in building secure applications.',
+      year: 'September 2023',
+      link: 'https://www.cyberacademy.id/certificate/SCOC02109231729',
     },
-  ], */
+  ],
   education: [
     {
       institution: 'International University Liaison Indonesia (IULI)',
