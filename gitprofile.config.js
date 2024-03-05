@@ -5,7 +5,7 @@ const config = {
     bio: 'Mobile App Dev ● Swift (iOS) ● Flutter (Android & iOS)',
     location: 'Jakarta, Indonesia',
     pictureURL:
-      'public/eibiel.jpg',
+      '/eibiel.jpg',
   },
   github: {
     username: 'racob', // Your GitHub org/user name. (Required)
@@ -130,14 +130,14 @@ const config = {
       title: 'MyBCA (iOS)',
       description:
         'Worked with Bank Central Asia to implement banking features for their iOS mobile banking app.',
-      imageUrl: `public/bca.jpeg`,
+      imageUrl: `/bca.jpeg`,
       link: 'https://apps.apple.com/id/app/mybca/id1440241902',
     },
     {
       title: 'Line Bank (iOS)',
       description:
         'Worked with Line Bank to develop their iOS mobile banking app.',
-      imageUrl: `public/linebank.png`,
+      imageUrl: `/linebank.png`,
       link: 'https://linebank.co.id/id',
     },
     {
@@ -145,7 +145,7 @@ const config = {
       description:
         'Super Quick Utility ARE is a GREAT all-in-one platform for ARE and design to assist your overall agency activities & sales process.',
       imageUrl:
-        'public/square.webp',
+        '/square.webp',
       link: 'https://play.google.com/store/apps/details?id=id.co.bfi.aretracker',
     },
     {
@@ -153,21 +153,21 @@ const config = {
       description:
         'An iOS app to help small and medium enterprises manage and analyze their business with easy-to-use features for inventory, transaction, and report.',
       imageUrl:
-        'public/jualanmu.jpeg',
+        '/jualanmu.jpeg',
       link: 'https://appadvice.com/app/jualanmu-pos-and-report/1490369748',
     },
     {
       title: 'Calistrainer (iOS)',
       description:
         'An iOS app that helps beginners practice simple calisthenic movements based on pose estimation. Developed for bachelor thesis.',
-      imageUrl: 'public/calistrainer.png',
+      imageUrl: '/calistrainer.png',
       link: 'https://github.com/racob/calistrainer',
     },
     {
       title: 'Archy (iOS)',
       description:
         'Body tracking app to help archers gain feedback on their posture in order to increase their performance and accuracy.',
-      imageUrl: 'public/archy.png',
+      imageUrl: '/archy.png',
       link: 'https://www.behance.net/gallery/90954233/Archy',
     },
     {
@@ -175,7 +175,7 @@ const config = {
       description:
         "Learning-by-doing-based iOS application for improving the pronunciation of reading the Qur'an, provided with video materials from nationally certified Qur'an instructors.",
       imageUrl:
-        'public/qiroah.webp',
+        '/qiroah.webp',
       link: 'https://www.qiroah.com/',
     },
   ],
