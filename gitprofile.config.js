@@ -3,7 +3,7 @@
 const config = {
   profile: {
     bio: 'Mobile App Dev ● Swift (iOS) ● Flutter (Android & iOS)',
-    location: 'Jakarta, Indonesia',
+    location: 'Indonesia',
     pictureURL:
       '/eibiel.jpg',
   },
@@ -136,14 +136,14 @@ const config = {
     {
       title: 'Line Bank (iOS)',
       description:
-        'Worked with Line Bank to develop their iOS mobile banking app.',
+        'Worked with Hana Bank Korea to develop their iOS mobile digital banking app, Line Bank.',
       imageUrl: `/linebank.png`,
       link: 'https://linebank.co.id/id',
     },
     {
       title: 'SQUARE (Android & iOS)',
       description:
-        'Super Quick Utility ARE is a GREAT all-in-one platform for ARE and design to assist your overall agency activities & sales process.',
+        'Super Quick Utility ARE is a GREAT all-in-one platform for ARE and designed to assist your overall agency activities & sales process.',
       imageUrl:
         '/square.webp',
       link: 'https://play.google.com/store/apps/details?id=id.co.bfi.aretracker',
