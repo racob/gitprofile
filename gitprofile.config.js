@@ -105,6 +105,12 @@ const config = {
   ],
   certifications: [
     {
+      name: 'Flutter Developer Expert - Dicoding Indonesia',
+      body: 'Learn best practices in developing Flutter applications according to industry standards. Create release-ready applications with high-quality, scalable code that can evolve based on user feedback.',
+      year: 'March 2024',
+      link: 'https://www.dicoding.com/certificates/2VX3OG79NZYQ',
+    },
+    {
       name: 'Secure Coding Overview - Cyber Academy Indonesia',
       body: 'Developers learn various attack techniques on applications, and how attacks can occur, and provide insight for developers about what things must be considered in building secure applications.',
       year: 'September 2023',
@@ -129,18 +135,17 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
+      title: 'Line Bank (iOS)',
+      description: 'Worked with Hana Bank Korea to develop their iOS mobile digital banking app, Line Bank.',
+      imageUrl: `/linebank.png`,
+      link: 'https://linebank.co.id/id',
+    },
+    {
       title: 'MyBCA (iOS)',
       description:
         'Worked with Bank Central Asia to implement banking features for their iOS mobile banking app.',
       imageUrl: `/bca.jpeg`,
       link: 'https://apps.apple.com/id/app/mybca/id1440241902',
-    },
-    {
-      title: 'Line Bank (iOS)',
-      description:
-        'Worked with Hana Bank Korea to develop their iOS mobile digital banking app, Line Bank.',
-      imageUrl: `/linebank.png`,
-      link: 'https://linebank.co.id/id',
     },
     {
       title: 'SQUARE (Android & iOS)',
