@@ -77,15 +77,8 @@ const config = {
     {
       company: 'Ice House',
       position: 'iOS Developer',
-      from: 'May 2022',
-      to: 'December 2022',
-      companyLink: 'https://icehousecorp.com/',
-    },
-    {
-      company: 'Ice House',
-      position: 'iOS Developer intern',
       from: 'September 2021',
-      to: 'February 2022',
+      to: 'December 2022',
       companyLink: 'https://icehousecorp.com/',
     },
     {
